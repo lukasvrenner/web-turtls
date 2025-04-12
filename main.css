@@ -6,16 +6,6 @@
 body {
     background-color: var(--bg);
     color: var(--text);
-}
-
-h1, h2, h3, p, pre {
-    color: var(--text);
-}
-a {
-    color: var(--url-color);
-}
-
-body {
     margin: 0 auto;
     max-width: 1000px;
     font-size: 1.25em;
@@ -23,33 +13,21 @@ body {
 
 header {
     text-align: center;
-    margin: 1rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    margin: 0.5rem;
+footer {
+    text-align: center;
 }
 
-ul {
-    margin: 0.5rem;
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0.75rem;
 }
 
 a {
+    color: var(--url-color);
     text-decoration: none;
 }
 
 a:hover {
     color: var(--highlight-color);
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-}
-
-@media (max-width: 768px) {
-    .container {
-        padding: 1rem;
-    }
 }
